@@ -12,7 +12,6 @@
 (function() {
     'use strict';
 
-    // Fonction pour ajouter du CSS
     function addGlobalStyle(css) {
         var head, style;
         head = document.getElementsByTagName('head')[0];
@@ -23,6 +22,5 @@
         head.appendChild(style);
     }
 
-    // Ajouter le CSS personnalisé
     addGlobalStyle('* { font-variant-ligatures: none; }');
 })();
